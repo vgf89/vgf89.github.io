@@ -1,0 +1,55 @@
+html {
+    color: #414858;
+    font-family: sans-serif;
+}
+
+#info {
+    width: 100%;
+}
+
+#contact_info {
+    color: #113c51;
+}
+
+.unstyledul {
+    list-style-type: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    padding: 14px 16px;
+    color: #d1afb1;
+    background-color: #513435;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #252b37;
+}
+
+.name {
+    color: #5a6172;
+}
+
+h2 {
+    color: #252b37;
+}
+
+h3 {
+    color: #252b37;
+}
+
+a {
+    color: #7a808e;
+}
