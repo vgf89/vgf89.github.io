@@ -15,27 +15,36 @@ html {
     list-style-type: none;
 }
 
-.navbar ul {
+nav {
+    display: block;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #513435;
     overflow: hidden;
 }
 
-.navbar li {
+nav li {
     float: left;
 }
 
-.navbar a {
+nav a {
     display: block;
-    padding: 14px 16px;
+    padding: 12px 16px;
     color: #d1afb1;
-    background-color: #513435;
     text-decoration: none;
+    text-align: center;
 }
 
-.navbar a:hover {
+nav a:hover {
     background-color: #252b37;
+}
+
+.active {
+    background-color: #5a6172;
 }
 
 .name {
