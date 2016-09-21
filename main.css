@@ -1,6 +1,26 @@
 html {
-    color: #414858;
     font-family: sans-serif;
+    overflow-y: scroll;
+}
+
+body {
+    margin-left: calc(16.6666666667% - 16px);
+    margin-right: calc(16.6666666667% - 16px);
+    background: #262626;
+}
+
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:1px;
+    margin-top:10px;
+    background: #4b4b4b;
+    color: #cccccc;
+}
+
+#avatar {
+    float: right;
+    padding-top: 0px;
 }
 
 #info {
@@ -8,7 +28,7 @@ html {
 }
 
 #contact_info {
-    color: #113c51;
+    color: #a9a9a9;
 }
 
 .unstyledul {
@@ -17,13 +37,16 @@ html {
 
 nav {
     display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: #513435;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #191919;
     overflow: hidden;
 }
 
@@ -34,31 +57,41 @@ nav li {
 nav a {
     display: block;
     padding: 12px 16px;
-    color: #d1afb1;
+    color: rgba(204,204,204,.5);
     text-decoration: none;
     text-align: center;
 }
 
 nav a:hover {
-    background-color: #252b37;
+    color: rgba(204,204,204,.8);
 }
 
-.active {
-    background-color: #5a6172;
+a.active {
+    color: #cccccc;
+}
+
+a:hover.active {
+    color: #cccccc;
 }
 
 .name {
-    color: #5a6172;
+    color: #cccccc;
 }
 
-h2 {
-    color: #252b37;
+header.name h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-h3 {
-    color: #252b37;
+section.content h3 {
+    margin: 0px;
+    margin-top: 20px;
 }
 
-a {
-    color: #7a808e;
+section.content h4 {
+    margin: 0px;
+}
+
+section.content a:visited {
+    color: #a9a9a9;;
 }
