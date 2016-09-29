@@ -1,12 +1,12 @@
 html {
     font-family: sans-serif;
     overflow-y: scroll;
+    background: #222222;
 }
 
 body {
     margin-left: calc(16.6666666667% - 16px);
     margin-right: calc(16.6666666667% - 16px);
-    background: #262626;
 }
 
 main {
@@ -14,10 +14,9 @@ main {
     padding-right: 10px;
     padding-top:1px;
     padding-bottom: 5px;
-    margin-top:10px;
     margin-bottom: 10px;
-    background: #4b4b4b;
-    color: #cccccc;
+    background: white;
+    color: black;
 }
 
 #avatar {
@@ -29,26 +28,21 @@ main {
     width: 100%;
 }
 
-#contact_info {
-    color: #a9a9a9;
-}
-
 .unstyledul {
     list-style-type: none;
 }
 
 nav {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 16px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 16px;
-    padding-right: 16px;
-    background-color: #191919;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #111111;
     overflow: hidden;
 }
 
@@ -58,26 +52,19 @@ nav li {
 
 nav a {
     display: block;
-    padding: 12px 16px;
-    color: rgba(204,204,204,.5);
+    padding: 12px 20px;
+    color: #999999;
     text-decoration: none;
     text-align: center;
 }
 
 nav a:hover {
-    color: rgba(204,204,204,.8);
+    color: white;
 }
 
-a.active {
-    color: #cccccc;
-}
-
-a:hover.active {
-    color: #cccccc;
-}
-
-.name {
-    color: #cccccc;
+nav a.active {
+    color: black;
+    background-color: white; 
 }
 
 header.name h1 {
