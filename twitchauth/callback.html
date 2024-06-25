@@ -1,0 +1,23 @@
+<html>
+    <head></head>
+
+    <body>
+        Done! Copy the URL below into your Browser Source:<br><br>
+
+        <div id="overlayurl" style="white-space: nowrap;"></div>
+    </body>
+
+    <script>
+        const overlayurl = new URL("http://raspberrypi:local:3000/chat/index.html", document.location);
+        document.location.hash.substring(1).split('&').forEach(function (x) {
+            var arr = x.split('=');
+            arr[1] && overlayurl.searchParams.append(arr[0].trim(), arr[1].trim());
+        });
+
+        console.log(overlayurl.toString());
+
+        // Add overlayURL to html
+        document.getElementById("overlayurl").innerHTML = overlayurl.toString();
+    </script>
+</html>
+
